@@ -1,0 +1,3 @@
+.img-overlay::after {
+    opacity: 0.6;
+}
