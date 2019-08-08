@@ -1617,3 +1617,10 @@
   display: flex;
   align-items: center;
 }
+
+.quiz-container {
+    margin-bottom: 30px;
+}
+.fw-500 {
+    font-weight: 500!important;
+}
