@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        EduCatch
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200|Open+Sans+Condensed:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/demo/demo.css" rel="stylesheet">
+    <!--  OUR STYLES-->
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body class="index-page sidebar-collapse">
+    <!-- Navbar -->
+    <nav class="navbar bg-dark navbar-expand-lg fixed-top">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="https://demos.creative-tim.com/now-ui-kit-pro/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
+          EduCatch
+        </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+            </div>
+            <div class="collapse navbar-collapse" data-nav-image="./assets/img//blurred-image-1.jpg" data-color="orange">
+                <ul class="navbar-nav ml-auto" id="ceva">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+              <i class="now-ui-icons shopping_shop"></i>
+              <p>Home</p>
+            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="quiz.html" target="_blank">
+                            <p>Quiz</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="page-header page-header-small">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg24.jpg');">
+            </div>
+            <div class="content-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">Fundamentals of C Programming</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <h3 class="title">Introduction</h3>
+                            <p> <strong>C is a procedural programming language. It was initially developed by Dennis Ritchie between 1969 and 1973. It was mainly developed as a system programming language to write an operating system. The main features of C language include low-level access to memory, a simple set of keywords, and clean style, these features make C language suitable for system programmings like an operating system or compiler development.
+Many later languages have borrowed syntax/features directly or indirectly from C language. Like syntax of Java, PHP, JavaScript and many other languages are mainly based on C language. C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).</strong> </p>
+                            <h3 class="title">Beginning with C programming:</h3>
+
+                            <h3 class="title">1. Structure of C program</h3>
+                            <p> <strong>
+After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
+                 
+                 <br> <br>
+                 
+                 The components of the above structure are:
+
+Header Files Inclusion: The first and foremost component is the inclusion of the Header files in a C program.
+A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
+Some of C Header files:
+<ul>
+    <li>stddef.h – Defines several useful types and macros.</li>
+    <li>stdint.h – Defines exact width integer types.</li>
+    <li>stdio.h – Defines core input and output functions</li>
+    <li>stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory allocation</li>
+    <li>string.h – Defines string handling functions</li>
+    <li>math.h – Defines common mathematical functions</li>
+</ul>
+
+                  </strong></p>
+                            <h3 class="title">2. Main Method Declaration</h3>
+                            <p> <strong>
+The next part of a C program is to declare the main() function.
+                 
+                
+                  </strong></p>
+                            <h3 class="title">3. Variable Declaration</h3>
+                            <p> <strong>
+The next part of any C program is the variable declaration. It refers to the variables that are to be used in the function. Please note that in C program, no variable can be used without being declared. Also in a C program, the variables are to be declared before any operation in the function
+                 
+                
+                  </strong></p>
+                            <h3 class="title">4. Body</h3>
+                            <p> <strong>
+Body of a function in C program, refers to the operations that are performed in the functions. It can be anything like manipulations, searching, sorting, printing, etc.
+                 
+                
+                  </strong></p>
+                            <h3 class="title">5. Return Statement</h3>
+                            <p> <strong>
+The last part in any C program is the return statement. The return statement refers to the returning of the values from a function. This return statement and return value depend upon the return type of the function. For example, if the return type is void, then there will be no return statement. In any other case, there will be a return statement and the return value will be of the type of the specified return type
+                 
+                
+                  </strong></p>
+
+                            <h3 class="title">First C program</h3>
+                            <p> <strong>
+<img src="assets/img/simple_prg.PNG" alt="" class="img-fluid">
+                
+                  </strong></p>
+                            
+                            
+                            
+
+                            <h3 class="title">BASICS</h3>
+                            <p> <strong>
+The basic elements used to construct a simple C program are: the C character set, identifiers and keywords, data types, constants, arrays, declarations , expressions and statements. Let us see how these elements can be combined to form more comprehensive program components-
+                 
+                
+                  </strong></p>
+
+
+
+                            <h3 class="title">The C Character Set</h3>
+                            <p> <strong>C uses letters A to Z in lowercase and uppercase, the digits 0 to 9, certain special characters, and white spaces to form basic program elements (e.g variables , constants, expressions etc.)
+<br>
+The special characters are:
+<br>
++  –  * /  = % &amp; # ! ? ^ ” ‘ /  | < > ( ) [  ]  {  } : ; . , ~ @ !
+<br>
+The white spaces used in C programs are: blank space, horizontal tab, carriage return, new line and form feed.
+                 
+                
+                  </strong></p>
+
+                            <h3 class="title">Identifiers and Keywords</h3>
+                            <p> <strong>Identifiers are names given to various program elements such as variables, functions, and arrays. Identifiers consist of letters and digits, in any order, except that the first character must be a letter. Both uppercase and lowercase letters are permitted and the underscore may also be used, as it is also regarded as a letter. Uppercase and lowercase letters are not equivalent, thus not interchangeable. This is why it is said that C is case sensitive. An identifier can be arbitrarily long.
+<br>
+The same identifier may denote different entities in the same program, for example, a variable and an array may be denoted by the same identifier, example below.
+                <br> <br>
+                int sum, average, A[10]; // sum, average and the array name A are all identifiers.
+                 
+                
+                  </strong></p>
+                  
+                  
+                  
+                  
+                   <h3 class="title">Keywords</h3>
+                            <p> <strong>Keywords are reserved words that have standard predefined meanings. These keywords can only be used for their intended purpose; they cannot be used as programmer defined identifiers. Examples of some keywords are: int, main, void, if.
+                
+                  </strong></p>
+                  
+                  <h3 class="title">Data types</h3>
+                            <p> <strong>Data values passed in a program may be of different types. Each of these data types are represented differently within the computer’s memory and have different memory requirements. These data types can be augmented by the use of data type qualifiers/modifiers.
+                
+                  </strong></p>
+                  <h3 class="title">Keywords</h3>
+                            <p> <strong>Keywords are reserved words that have standard predefined meanings. These keywords can only be used for their intended purpose; they cannot be used as programmer defined identifiers. Examples of some keywords are: int, main, void, if.
+                
+                  </strong></p>
+
+   <h3 class="title">Conclusion</h3>
+              <p> <strong>
+
+Thus from the above we came to understand the basics of the C programming
+Stay tuned! It's very interesting.
+</strong></p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section-blog-info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="blog-tags">
+                                        Tags:
+                                        <span class="label label-primary">Fundamentals Of C,</span>
+                                        <span class="label label-primary">First program,</span>
+                                        <span class="label label-primary">Basics of C programming</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#pablo" class="btn btn-google btn-round pull-right">
+                    <i class="fab fa-google"></i> 
+                  </a>
+                                    <a href="#pablo" class="btn btn-twitter btn-round pull-right">
+                    <i class="fab fa-twitter"></i> 
+                  </a>
+                                    <a href="#pablo" class="btn btn-facebook btn-round pull-right">
+                    <i class="fab fa-facebook-square"></i> 
+                  </a>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" data-background-color="black">
+            <div class=" container ">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                EDUCATCH
+              </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright" id="copyright">
+                    &copy;
+                    <script>
+                        document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+
+                    </script>, Designed by
+                    <a href="" target="_blank">Fluid Inc</a>. Coded by
+                    <a href="javascript:;" target="_blank">Yukta Peswani , Gaurav Punjabi</a>.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--   Core JS Files   -->
+
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+    <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+    <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+    <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+    <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+    <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+</body>
+
+</html>
