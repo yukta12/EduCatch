@@ -74,121 +74,112 @@
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
                             <h3 class="title">Introduction</h3>
-                            <p> <strong>C is a procedural programming language. It was initially developed by Dennis Ritchie between 1969 and 1973. It was mainly developed as a system programming language to write an operating system. The main features of C language include low-level access to memory, a simple set of keywords, and clean style, these features make C language suitable for system programmings like an operating system or compiler development.
-Many later languages have borrowed syntax/features directly or indirectly from C language. Like syntax of Java, PHP, JavaScript and many other languages are mainly based on C language. C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).</strong> </p>
-                            <h3 class="title">Beginning with C programming:</h3>
-
-                            <h3 class="title">1. Structure of C program</h3>
-                            <p> <strong>
-After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
-                 
-                 <br> <br>
-                 
-                 The components of the above structure are:
-
-Header Files Inclusion: The first and foremost component is the inclusion of the Header files in a C program.
-A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
-Some of C Header files:
-<ul>
-    <li>stddef.h – Defines several useful types and macros.</li>
-    <li>stdint.h – Defines exact width integer types.</li>
-    <li>stdio.h – Defines core input and output functions</li>
-    <li>stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory allocation</li>
-    <li>string.h – Defines string handling functions</li>
-    <li>math.h – Defines common mathematical functions</li>
-</ul>
-
-                  </strong></p>
-                            <h3 class="title">2. Main Method Declaration</h3>
-                            <p> <strong>
-The next part of a C program is to declare the main() function.
-                 
-                
-                  </strong></p>
-                            <h3 class="title">3. Variable Declaration</h3>
-                            <p> <strong>
-The next part of any C program is the variable declaration. It refers to the variables that are to be used in the function. Please note that in C program, no variable can be used without being declared. Also in a C program, the variables are to be declared before any operation in the function
-                 
-                
-                  </strong></p>
-                            <h3 class="title">4. Body</h3>
-                            <p> <strong>
-Body of a function in C program, refers to the operations that are performed in the functions. It can be anything like manipulations, searching, sorting, printing, etc.
-                 
-                
-                  </strong></p>
-                            <h3 class="title">5. Return Statement</h3>
-                            <p> <strong>
-The last part in any C program is the return statement. The return statement refers to the returning of the values from a function. This return statement and return value depend upon the return type of the function. For example, if the return type is void, then there will be no return statement. In any other case, there will be a return statement and the return value will be of the type of the specified return type
-                 
-                
-                  </strong></p>
-
-                            <h3 class="title">First C program</h3>
-                            <p> <strong>
-<img src="assets/img/simple_prg.PNG" alt="" class="img-fluid">
-                
-                  </strong></p>
-                            
-                            
-                            
-
-                            <h3 class="title">BASICS</h3>
-                            <p> <strong>
-The basic elements used to construct a simple C program are: the C character set, identifiers and keywords, data types, constants, arrays, declarations , expressions and statements. Let us see how these elements can be combined to form more comprehensive program components-
-                 
-                
-                  </strong></p>
-
-
-
-                            <h3 class="title">The C Character Set</h3>
-                            <p> <strong>C uses letters A to Z in lowercase and uppercase, the digits 0 to 9, certain special characters, and white spaces to form basic program elements (e.g variables , constants, expressions etc.)
+                            <p> <strong>Control structures form the basic entities of a “structured programming language“. We all know languages like C/C++ or Java are all structured programming languages. Control structures are used to alter the flow of execution of the program.  Why do we need to alter the program flow ? The reason is “decision making“! In life, we may be given with a set of option like doing “Electronics” or “Computer science”. We do make a decision by analyzing certain conditions (like our personal interest, scope of job opportunities etc). With the decision we make, we alter the flow of our life’s direction. This is exactly what happens in a C/C++ program. We use control structures to make decisions and alter the direction of program flow in one or the other path(s) available.
+<br> <br>
+There are three types of control structures available in C and C++
 <br>
-The special characters are:
+1) Sequence structure (straight line paths)
 <br>
-+  –  * /  = % &amp; # ! ? ^ ” ‘ /  | < > ( ) [  ]  {  } : ; . , ~ @ !
+2) Selection structure (one or many branches)
 <br>
-The white spaces used in C programs are: blank space, horizontal tab, carriage return, new line and form feed.
-                 
-                
-                  </strong></p>
+3)Loop structure (repetition of a set of activities)
+<br><br>
+All the 3 control structures and its flow of execution is represented in the flow charts given below.</strong> </p>
+                            <img src="https://www.circuitcrush.com/wp-content/uploads/C-Control-Structures.gif" alt="" class="img-fluid">
+                            <h3 class="title">Sequence structure</h3>
+                            <br> <br> <img src="assets/img/sequence_structure.png" alt="" class="img-fluid text-md-center">
+                            <h3 class="title">Selection structure</h3>
+                            <p> <strong>
+Selection structures are used to perform  ‘decision making‘ and then branch the program flow based on the outcome of decision making. Selection structures are implemented in C/C++ with If, If Else and Switch statements. If and If Else statements are 2 way branching statements where as Switch is a multi branching statement.
+                               </strong></p>
+                            <br> <br> <img src="assets/img/selection_structure_modified.png" alt="" class="img-fluid text-md-center">
+                            <h3 class="title">Example</h3>
 
-                            <h3 class="title">Identifiers and Keywords</h3>
-                            <p> <strong>Identifiers are names given to various program elements such as variables, functions, and arrays. Identifiers consist of letters and digits, in any order, except that the first character must be a letter. Both uppercase and lowercase letters are permitted and the underscore may also be used, as it is also regarded as a letter. Uppercase and lowercase letters are not equivalent, thus not interchangeable. This is why it is said that C is case sensitive. An identifier can be arbitrarily long.
-<br>
-The same identifier may denote different entities in the same program, for example, a variable and an array may be denoted by the same identifier, example below.
+                            <p> <strong>
+Example program to demo “If” statement <br> <br>
+Problem:- 
+<br><br>
+A simple example program to demo the use of If, If Else and Switch is shown here. An integer value is collected from user.
+If the integer entered by user is 1 – output on screen “UNITED STATES”. If the integer is 2 – output “SPAIN”, If the integer is 3 output “INDIA”. If the user enters some other value – output “WRONG ENTRY”.
+<br><br>    <img src="assets/img/if-else.PNG" alt="" class="img-fluid">
+                  </strong></p>
+                            <h3 class="title">Switch Statement</h3>
+                            <p> <strong>
+Switch is a multi branching control statement.Execution of switch statement begins by evaluating the expression inside the switch keyword brackets. The expression should be an integer (1, 2, 100, 57 etc ) or a character constant like ‘a’, ‘b’ etc. This expression’s value is then matched with each case values. There can be any number of case values inside a switch statements block. If first case value is not matched with the expression value, program control moves to next case value and so on. When a case value matches with expression value, the statements that belong to a particular case value are executed. <br>
+Notice that last set of lines that begins with default. The word default is a keyword in C/C++. When used inside switch block, it is intended to execute a set of statements, if no case values matches with expression value. So if no case values are matched with expression value, the set of statements that follow default: will get executed. <br>
+Note: Notice the break statement used at the end of each case values set of statements. The word break is a keyword in C/C++ used to break from a block of curly braces. The switch block has two curly braces { }. The keyword break causes program control to exit from switch block.  
+                 
                 <br> <br>
-                int sum, average, A[10]; // sum, average and the array name A are all identifiers.
-                 
+                 <img src="assets/img/switch.PNG" alt="" class="img-fluid">
+                  </strong></p>
+                            <h3 class="title">Loop structures</h3>
+                            <p> <strong>
+A loop structure is used to execute a certain set of actions for a predefined number of times or until a particular condition is satisfied. There are 3 control statements available in C/C++ to implement loop structures. While, Do while and For statements. 
+             <img src="assets/img/loop_structure.png" alt="" class="img-fluid">    
                 
                   </strong></p>
-                  
-                  
-                  
-                  
-                   <h3 class="title">Keywords</h3>
-                            <p> <strong>Keywords are reserved words that have standard predefined meanings. These keywords can only be used for their intended purpose; they cannot be used as programmer defined identifiers. Examples of some keywords are: int, main, void, if.
-                
+                            <h3 class="title">The while statement</h3>
+                            <p> <strong>
+                Syntax for while loop is shown below: <br> <br>
+
+while(condition)// This condition is tested for TRUE or FALSE. Statements inside curly braces are executed as long as condition is TRUE <br>
+{ <br>
+statement 1; <br>
+statement 2; <br>
+statement 3;<br>
+}
+<br> <br>
+The condition is checked for TRUE first. If it is TRUE then all statements inside curly braces are executed.Then program control comes back to check the condition has changed or to check if it is still TRUE. The statements inside braces are executed repeatedly, as long as  the condition is TRUE. When the condition turns FALSE, program control exits from while loop.
+<br> <br>
+Note:- while is an entry controlled loop. Statement inside braces are allowed to execute only if condition inside while is TRUE.
                   </strong></p>
-                  
-                  <h3 class="title">Data types</h3>
-                            <p> <strong>Data values passed in a program may be of different types. Each of these data types are represented differently within the computer’s memory and have different memory requirements. These data types can be augmented by the use of data type qualifiers/modifiers.
-                
-                  </strong></p>
-                  <h3 class="title">Keywords</h3>
-                            <p> <strong>Keywords are reserved words that have standard predefined meanings. These keywords can only be used for their intended purpose; they cannot be used as programmer defined identifiers. Examples of some keywords are: int, main, void, if.
+                            
+                            <h3 class="title">The do while statement</h3>
+                            <p> <strong>
+                Syntax for do while loop is shown below: <br> <br>
+
+do <br>
+{ <br>
+statement 1; <br>
+statement 2; <br>
+statement 3; <br>
+} <br>
+while(condition); <br> <br>
+
+Unlike while, do while is an exit controlled loop. Here the set of statements inside braces are executed first. The condition inside while is checked only after finishing the first time execution of statements inside braces. If the condition is TRUE, then statements are executed again. This process continues as long as condition is TRUE. Program control exits the loop once the condition turns FALSE.
                 
                   </strong></p>
 
-   <h3 class="title">Conclusion</h3>
-              <p> <strong>
-
-Thus from the above we came to understand the basics of the C programming
-Stay tuned! It's very interesting.
-</strong></p>
+                           
+                            <h3 class="title">The for statement</h3>
+                            <p> <strong>
+                Syntax of for statement is shown below: <br>
 
 
+for(initialization statements;test condition;iteration statements) <br>
+{ <br>
+statement 1; <br>
+statement 2; <br>
+statement 3; <br>
+} <br> <br>
+
+The for statement is an entry controlled loop. The difference between while and for is in the number of repetitions. The for loop is used when an action is to be executed for a predefined number of times. The while loop is used when the number of repetitions is not predefined.
+<br><br>
+Working of for loop:
+<br><br>
+The program control enters the for loop. At first it execute the statements given as initialization statements. Then the condition statement is evaluated. If conditions are TRUE, then the block of statements inside curly braces is executed. After executing curly brace statements fully, the control moves to the "iteration" statements. After executing iteration statements, control comes back to condition statements. Condition statements are evaluated again for TRUE or FALSE. If TRUE the curly brace statements are executed. This process continues until the condition turns FALSE.
+<br>
+Note 1:- The statements given as "initialization statements" are executed only once, at the beginning of a for loop. <br>
+Note 2: There are 3 statements given to a for loop as shown. One for initialization purpose, other for condition testing and last one for iterating the loop. Each of these 3 statements are separated by semicolons.
+                
+                  </strong></p>
+
+                            <h3 class="title">Watch the entire tutorial to learn better</h3>
+                        
+                         <div class="embed-responsive embed-responsive-16by9">
+ 
+<iframe src="https://www.youtube.com/embed/QttRZCxuKPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item"></iframe>
+</div>
 
                         </div>
                     </div>
