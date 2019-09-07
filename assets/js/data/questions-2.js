@@ -13,8 +13,8 @@ var questions = [{
         statement: "Option d",
         correct: false
     }],
-    
-    statement: "What is the size of float in C-91 ? ",
+},{
+     statement: "What is the size of float in C-91 ? ",
     options: [{
         statement: "Option a",
         correct: true
@@ -28,5 +28,8 @@ var questions = [{
         statement: "Option d",
         correct: false
     }]
+}
+    
+   
 
-}];
+];
