@@ -5,6 +5,7 @@ var resultBody          =   $('#resultBody');
 
 // Adding all the given questions
 for(i=0;i<questions.length;i++) {
+    alert(questions.length);
     let question = questions[i];
     
     addQuestion(i + 1, question);
